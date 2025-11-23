@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALOO - Home</title>
+  <link rel="stylesheet" href="./prod.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">ALOO</div>
+    <div class="nav-right">
+      <div class="cart-icon" id="cartIcon">🛒
+        <span class="cart-count" id="cartCount">0</span>
+      </div>
+      <button id="logoutBtn">Logout</button>
+    </div>
+  </nav>
+
+  <!-- Products -->
+  <div class="products" id="productList"></div>
+
+  <!-- Cart Modal -->
+  <div class="cart-modal" id="cartModal">
+    <div class="cart-content">
+      <h2>Your Cart</h2>
+      <div id="cartItems"></div>
+      <div class="total" id="totalPrice">Total: ₹0</div>
+      <button class="buy-btn" id="buyBtn">Buy</button>
+    </div>
+  </div>
+ <script src="./prod.js"></script>
+</body>
+</html>

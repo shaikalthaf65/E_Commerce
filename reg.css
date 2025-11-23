@@ -1,0 +1,67 @@
+body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #000, #c9a23f);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .reg {
+      background-color: #fff;
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      width: 350px;
+    }
+
+    .reg h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 25px;
+    }
+
+    .reg input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 15px;
+    }
+
+    .reg button {
+      width: 100%;
+      background-color: black;
+      color: gold;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .reg button:hover {
+      background-color: gold;
+      color: black;
+      transition: 0.3s;
+    }
+    .reg .login-btn {
+      background-color: #555;
+      color: white;
+    }
+
+    .reg .login-btn:hover {
+      background-color: #333;
+    }
+
+    .reg .back-btn {
+      background-color: transparent;
+      border: 1px solid #ccc;
+      color: #333;
+    }
+
+    .reg .back-btn:hover {
+      background-color: #f1f1f1;
+    }
